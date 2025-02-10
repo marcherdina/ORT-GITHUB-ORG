@@ -1,0 +1,9 @@
+---
+id: "NPM::ngx-pagination:6.0.3"
+vcs:
+  type: "Git"
+  url: "https://github.com/michaelbromley/ngx-pagination.git"
+  revision: "04fabd1ee6a997434b755aad27577c170680bad3"
+path_excludes:
+- pattern: "docs/**"
+  reason: "DOCUMENTATION_OF"

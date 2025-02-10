@@ -1,0 +1,12 @@
+---
+id: "NPM::htmldiff-js:1.0.5"
+vcs:
+  type: "Git"
+  url: "https://github.com/dfoverdx/htmldiff-js.git"
+  revision: "f7d41602584a6d22508d20c78fed87e803d36dfe"
+license_finding_curations:
+- path: "LICENSE"
+  reason: "CODE"
+  concluded_license: "ISC"
+  comment: "The code contains listings of license identifiers which do not apply.\
+    \ The scanned MIT License looks like ISC."

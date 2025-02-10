@@ -1,0 +1,23 @@
+---
+id: "NPM:@angular:cdk:18.1.0"
+vcs:
+  type: "Git"
+  url: "https://github.com/angular/components.git"
+  revision: "a155439cbb8fd5afb78c69530c3bb4d96ad98ae7"
+path_excludes:
+- pattern: ".yarn/releases/**"
+  reason: "BUILD_TOOL_OF"
+- pattern: "integration/**"
+  reason: "TEST_OF"
+- pattern: ".yarn/**"
+  reason: "BUILD_TOOL_OF"
+license_finding_curations:
+- path: "CONTRIBUTING.md"
+  concluded_license: "NONE"
+  reason: "INCORRECT"
+  comment: "The files do not contain any license text."
+- path: "src/material/sidenav/drawer.ts"
+  concluded_license: "NONE"
+  reason: "INCORRECT"
+  comment: "The files do not contain any license text. Just code"
+ 

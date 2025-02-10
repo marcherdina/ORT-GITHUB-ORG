@@ -1,0 +1,22 @@
+analyzer:
+  skip_excluded: true
+# This is an example for a (project specific) repository configuration file.
+excludes:
+  scopes:
+    #NPM
+  - pattern: "devDependencies"
+    reason: "DEV_DEPENDENCY_OF"
+    comment: "Packages for development only."
+
+    #Gradle
+  - pattern: "test.*"
+    reason: "TEST_DEPENDENCY_OF"
+    comment: "Packages for testing only."
+
+    #Maven
+  - pattern: "provided"
+    reason: "PROVIDED_DEPENDENCY_OF"
+    comment: "Packages provided at runtime by the JDK or container only."
+  - pattern: "test"
+    reason: "TEST_DEPENDENCY_OF"
+    comment: "Packages for testing only."

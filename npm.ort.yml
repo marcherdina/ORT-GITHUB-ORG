@@ -1,0 +1,10 @@
+analyzer:
+  skip_excluded: true
+# This is an example for a (project specific) repository configuration file.
+excludes:
+  scopes:
+  - pattern: "devDependencies"
+    reason: "DEV_DEPENDENCY_OF"
+    comment: "Packages for development only."
+
+  

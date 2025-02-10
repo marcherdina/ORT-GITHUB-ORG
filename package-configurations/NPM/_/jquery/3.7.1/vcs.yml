@@ -1,0 +1,15 @@
+---
+id: "NPM::jquery:3.7.1"
+vcs:
+  type: "Git"
+  url: "https://github.com/jquery/jquery.git"
+  revision: "fde1f76e2799dd877c176abde0ec836553246991"
+path_excludes:
+- pattern: "external/**"
+  reason: "OTHER"
+
+license_finding_curations:
+- path: "CONTRIBUTING.md"
+  concluded_license: "NONE"
+  reason: "INCORRECT"
+  comment: "The files do not contain any license text."

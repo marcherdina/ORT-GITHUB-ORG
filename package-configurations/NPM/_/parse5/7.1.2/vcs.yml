@@ -1,0 +1,10 @@
+---
+id: "NPM::parse5:7.1.2"
+vcs:
+  type: "Git"
+  url: "https://github.com/inikulin/parse5.git"
+  revision: "1f34d804e5f4719585667e6284921534a465691b"
+path_excludes:
+- pattern: "test/**"
+  reason: "TEST_OF"
+

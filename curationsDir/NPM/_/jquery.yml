@@ -1,0 +1,7 @@
+- id: "NPM::jquery:3.7.1"
+  curations:
+    concluded_license: "MIT" # Valid SPDX license expression to override the license findings.
+    
+    description: "Curated via webappreport."
+
+

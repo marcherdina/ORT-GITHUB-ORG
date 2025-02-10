@@ -1,0 +1,13 @@
+---
+id: "NPM:@ngx-translate:core:15.0.0"
+
+source_artifact_url: "https://registry.npmjs.org/@ngx-translate/core/-/core-15.0.0.tgz"
+
+license_finding_curations:
+- path: "package/package.json"
+  concluded_license: "MIT"
+  reason: "INCORRECT"
+  comment: "No Licencense file in d´this version. Just a link to license file of newest version"
+
+
+ 

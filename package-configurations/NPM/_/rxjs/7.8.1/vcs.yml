@@ -1,0 +1,13 @@
+---
+id: "NPM::rxjs:7.8.1"
+vcs:
+  type: "Git"
+  url: "https://github.com/reactivex/rxjs.git"
+  revision: "72bc92191ab959e27a969dc4476e14d95416573f"
+path_excludes:
+- pattern: "docs_app/**"
+  reason: "DOCUMENTATION_OF"
+- pattern: "spec/helpers/**"
+  reason: "DOCUMENTATION_OF"
+- pattern: "tools/**"
+  reason: "DOCUMENTATION_OF"

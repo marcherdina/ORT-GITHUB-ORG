@@ -1,0 +1,11 @@
+- id: "NPM:@ngx-translate:core:15.0.0"
+  curations:
+    concluded_license: "MIT" # Valid SPDX license expression to override the license findings.
+    declared_license_mapping:
+      "Copyright (c) 2018 Olivier Combe": "MIT"
+      "Copyright (c) 2024 Andreas Löw / CodeAndWeb GmbH" : "MIT"
+    
+    description: "License info from newer version ."
+    homepage_url: "https://registry.npmjs.org/@ngx-translate/core/"
+
+

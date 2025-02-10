@@ -1,0 +1,13 @@
+---
+# This file contains global resolutions for issues and rule violations occurring in the OSS scan.
+# These resolutions are applied to all scanned projects, so make sure to only
+# add resolutions that are not specific to a project. Project specific
+# resolutions can be configured in the .ort.yml file of the project.
+#
+# For detailed documentation on this file, see
+# https://github.com/oss-review-toolkit/ort/blob/main/docs/config-file-resolutions-yml.md.
+
+issues:
+- message: "IOException: Could not resolve provenance for package 'NPM:@adam-family:am-lib-ui-common:18.6.0' for source code origins [VCS, ARTIFACT].\nResolution of VCS failed with:\nIOException: Could not resolve revision for package 'NPM:@adam-family:am-lib-ui-common:18.6.0' with VcsInfo(type=Git, url=https://github.com/adam-family/am-lib-ui-common.git, revision=, path=):\n\tCould not find any revision candidates for package 'NPM:@adam-family:am-lib-ui-common:18.6.0' with VcsInfo(type=Git, url=https://github.com/adam-family/am-lib-ui-common.git, revision=, path=)"
+  reason: "CANT_FIX_ISSUE"
+  comment: "Common Lib from ADAM Family"

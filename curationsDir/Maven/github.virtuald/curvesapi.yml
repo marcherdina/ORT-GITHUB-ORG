@@ -1,0 +1,7 @@
+- id: "Maven:com.github.virtuald:curvesapi:1.08"
+  curations:
+    concluded_license: "BSD-3-Clause" # Valid SPDX license expression to override the license findings.
+    
+    description: "Curated via webappreport."
+
+

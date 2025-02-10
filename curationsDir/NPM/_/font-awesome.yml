@@ -1,0 +1,7 @@
+- id: "NPM::font-awesome:4.7.0"
+  curations:
+    concluded_license: "OFL-1.1 AND MIT" # Valid SPDX license expression to override the license findings.
+    
+    description: "Curated via webappreport."
+
+
