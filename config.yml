@@ -72,10 +72,10 @@ scanner:
     storages:
       postgresStorage:
         connection:
-          url: "jdbc:postgres://avnadmin:AVNS_5OmJyeqijnVyfacbzcP@oss-ort-db-oss-ort-db.i.aivencloud.com:14997/defaultdb?sslmode=require"
+          url: ${{ secrets.DB_URL }}
           schema: "public"
-          username: "avnadmin"
-          password: "AVNS_5OmJyeqijnVyfacbzcP"
+          username: ${{ secrets.DB_NAME }}
+          password: ${{ secrets.DB_PW }}
           sslmode: "verify-full"
     
       clearlyDefined:
