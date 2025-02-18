@@ -69,21 +69,6 @@ scanner:
     #     localFileStorage:
     #       directory: ~/Documents/Enterprise-OSO/Tooling/ORT/fileStorage/archive
     #       compression: false
-
-      postgresStorage:
-        connection:
-          url: 'jdbc:postgresql://oss-ort-db-oss-ort-db.i.aivencloud.com:14997/defaultdb'
-          schema: public
-          username: avnadmin
-          password: AVNS_5OmJyeqijnVyfacbzcP
-          sslmode: require
-          sslrootcert: /ca.pem
-          connectionTimeout: 30000
-          idleTimeout: 600000
-          keepaliveTime: 0
-          maxLifetime: 1800000
-          maximumPoolSize: 10
-          minimumIdle: 600000
     
     detectedLicenseMapping:
       BSD (Three Clause License): 'BSD-3-clause'
@@ -108,6 +93,21 @@ scanner:
       
       clearlyDefined:
         serverUrl: 'https://api.clearlydefined.io'
+
+      postgres:
+        connection:
+          url: 'jdbc:postgresql://oss-ort-db-oss-ort-db.i.aivencloud.com:14997/defaultdb'
+          schema: public
+          username: avnadmin
+          password: AVNS_5OmJyeqijnVyfacbzcP
+          sslmode: require
+          sslrootcert: /ca.pem
+          connectionTimeout: 30000
+          idleTimeout: 600000
+          keepaliveTime: 0
+          maxLifetime: 1800000
+          maximumPoolSize: 10
+          minimumIdle: 600000
     
     # Storage readers are listed from highest to lower priority, i.e. the first match wins.
     storageReaders: [postgres,  clearlyDefined, SCANOSS]
