@@ -110,7 +110,7 @@ scanner:
         serverUrl: 'https://api.clearlydefined.io'
     
     # Storage readers are listed from highest to lower priority, i.e. the first match wins.
-    storageReaders: [postgres,  clearlyDefined, scanoss]
+    storageReaders: [postgres,  clearlyDefined, SCANOSS]
 
     # For storage writers no priority is implied by the order; scan results are stored for all writers.
     storageWriters: [postgres]
