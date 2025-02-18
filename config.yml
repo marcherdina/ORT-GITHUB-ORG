@@ -86,7 +86,11 @@ scanner:
     #       localFileStorage:
     #         directory: ~/Documents/Enterprise-OSO/Tooling/ORT/fileStorage/results
     #         compression: false
-    
+
+      SCANOSS:
+        options:
+          apiUrl: 'https://api.osskb.org/'
+      
       clearlyDefined:
         serverUrl: 'https://api.clearlydefined.io'
     
