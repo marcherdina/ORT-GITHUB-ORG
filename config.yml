@@ -110,7 +110,7 @@ scanner:
           minimumIdle: 600000
     
     # Storage readers are listed from highest to lower priority, i.e. the first match wins.
-    storageReaders: [postgres,  clearlyDefined, SCANOSS]
+    storageReaders: [postgres,  clearlyDefined]
 
     # For storage writers no priority is implied by the order; scan results are stored for all writers.
     storageWriters: [postgres]
